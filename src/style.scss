@@ -1,10 +1,28 @@
-h1 {
-  font-size: 34px;
-  color: red;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  p {
-    color: blue;
+html,
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  .output-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title {
+      font-size: 2em;
+      color: #d32f2f;
+    }
+    &__output {
+      border: 2px dashed #ddd;
+      padding: 30px;
+      font-size: 4em;
+      color: #1976d2;
+    }
   }
 }

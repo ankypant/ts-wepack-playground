@@ -2,4 +2,4 @@ import './style.scss';
 
 const outputEl = document.getElementById('output') as HTMLElement;
 
-outputEl.textContent = 'Your output will appear here!!';
+outputEl.textContent = 'The output will appear here!!';
