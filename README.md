@@ -12,7 +12,7 @@ yarn | npm install
 yarn start | npm run start
 ```
 
-## build
+## Build
 
 ```bash
 yarn build | npm run build

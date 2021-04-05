@@ -1,3 +1,5 @@
-const outputEl = document.getElementById("output") as HTMLElement;
+import './style.scss';
 
-outputEl.textContent = "Your output will appear here!!";
+const outputEl = document.getElementById('output') as HTMLElement;
+
+outputEl.textContent = 'Your output will appear here!!';
